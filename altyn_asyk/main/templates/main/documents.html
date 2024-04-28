@@ -1,0 +1,31 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'main/about.css' %}">
+<link rel="stylesheet" href="{% static 'main/documents.css' %}">
+{% endblock %}
+
+{% block title %} Алтын Асық {% endblock %}
+{% block body %}
+<content>
+    <div class="container">
+        <div class="title">
+            <span>БАЛАБАҚША ҚҰЖАТТАРЫ (Аттестациялауға)</span>
+        </div>
+        <div class="disclaimer">
+            <div class="first">Құрметті сайт қолданушысы!</div>
+            <div class="second">Қажетті құжат атауы текстін шерту арқылы таңдалған құжатты жаңадан ашылған бетте мазмұнымен таныса аласыз немесе компьютеріңізге жүктеп таныса аласыз!</div>
+        </div>
+        <div class="links">
+            <a href="#" class="a_link">Өзін өзі бағалау қорытындысы</a><br><br>
+            <a href="#">Өзін өзі бағалау қорытындысы</a><br><br>
+            <a href="#">Өзін өзі бағалау қорытындысы</a><br><br>
+            <a href="#">Өзін өзі бағалау қорытындысы</a><br><br>
+            <a href="#">Өзін өзі бағалау қорытындысы</a><br><br>
+            <a href="#">Өзін өзі бағалау қорытындысы</a><br><br>
+            <a href="#">Өзін өзі бағалау қорытындысы</a><br><br>
+        </div>
+    </div>
+</content>
+{% endblock %}

@@ -1,0 +1,25 @@
+.disclaimer{
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.first{
+    color:red;
+    font-size: 25pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.second{
+    color:mediumpurple;
+    font-size: 15pt;
+    margin-bottom: 10px;
+}
+
+a {
+    color: blue;
+    font-size: 18pt;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
