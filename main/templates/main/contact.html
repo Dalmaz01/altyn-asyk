@@ -1,0 +1,31 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'main/about.css' %}">
+<link rel="stylesheet" href="{% static 'main/documents.css' %}">
+<link rel="stylesheet" href="{% static 'main/register.css' %}">
+{% endblock %}
+
+{% block title %} Алтын Асық {% endblock %}
+{% block body %}
+<content>
+    <div class="container">
+        <div class="title">
+            <span>Байланыс</span>
+        </div>
+        <div class="disclaimer">
+            <div class="first">«Алтын асық» бөбекжай-балабақшасы ЖШС</div>
+        </div>
+        <div class="register_text">
+            Балабақша меңгерушісі: Оспанова Базаркуль Жандильдаевна <br>
+            Балабақша әдіскері: Мұстафа Айгерім Қайратқызы<br>
+            Мекен жайы: Қазақстан Республикасы, Түркістан облысы, Мақтаарал ауданы, Иіржар ауылдық округі, Мақтажан ауылы, Баян ата көшесі, №16 үй.<br>
+            Email: Kozhaeva1978@list.ru<br>
+            Меңгеруші тел.: +7 777 392 9079<br>
+        </div>
+
+
+    </div>
+</content>
+{% endblock %}

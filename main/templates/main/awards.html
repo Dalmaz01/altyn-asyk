@@ -1,0 +1,28 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'main/about.css' %}">
+{% endblock %}
+
+{% block title %} Алтын Асық {% endblock %}
+{% block body %}
+<content>
+    <div class="container">
+        <div class="title">
+            <span>Балабақша жетістіктері</span>
+        </div>
+        <div class="images">
+            <img src="{% static 'main/award1.jpeg' %}" alt=""><br>
+
+
+        </div>
+        <div class="images">
+            <img src="{% static 'main/award2.jpeg' %}" alt=""><br>
+        </div>
+        <div class="images">
+            <img src="{% static 'main/award3.jpeg' %}" alt=""><br>
+        </div>
+    </div>
+</content>
+{% endblock %}

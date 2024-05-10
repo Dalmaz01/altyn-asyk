@@ -1,0 +1,32 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'main/about.css' %}">
+{% endblock %}
+
+{% block title %} Алтын Асық {% endblock %}
+{% block body %}
+<content>
+    <div class="container">
+        <div class="title">
+            <span>Санбюллетень</span>
+        </div>
+        <div class="images">
+            <img src="{% static 'main/san.jpg' %}" alt=""><br>
+
+
+        </div>
+        <div class="images">
+            <img src="{% static 'main/san1.jpg' %}" alt=""><br>
+        </div>
+        <div class="images">
+            <img src="{% static 'main/korona.png' %}" alt=""><br>
+        </div>
+
+        <div class="images">
+            <img src="{% static 'main/san2.jpg' %}" alt=""><br>
+        </div>
+    </div>
+</content>
+{% endblock %}

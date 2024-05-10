@@ -1,0 +1,31 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'main/about.css' %}">
+<link rel="stylesheet" href="{% static 'main/documents.css' %}">
+<link rel="stylesheet" href="{% static 'main/register.css' %}">
+{% endblock %}
+
+{% block title %} Алтын Асық {% endblock %}
+{% block body %}
+<content>
+    <div class="container">
+        <div class="title">
+            <span>Қауіпсіздік шаралары</span>
+        </div>
+        <div class="register_text">
+            «Алтын асық» бөбекжай балабақшасында 16 бейнебақылау камералары орнатылған.
+            Оның 12 данасы балабақша ішінде орнатылған. 2 данасы балабақшаның алдыңғы аулаларында,
+            2 данасы балабақшаның артқы аулаларында орнатылған.
+        </div>
+
+        <div class="register_text">
+            Бөбекжайға баланы алып келу үшін ата аналар алдымен  «Smartnation» порталына
+            тіркеліп кезекке тұрады және орын босағанда жолдама алады. Жолдама алған соң
+            баланың медициналық «Денсаулық паспортын» басқа негізгі  құжаттармен бөбекжайға
+            алып келеді. Құжаттары дұрыс болса бала бөбекжайға қабылданады.
+        </div>
+    </div>
+</content>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'main/about.css' %}">
+{% endblock %}
+
+{% block title %} Алтын Асық {% endblock %}
+{% block body %}
+<content>
+    <div class="container">
+        <div class="title">
+            <span>КОРОНАВИРУСТЫҢ АЛДЫН АЛУ ШАРАЛАРЫ</span>
+        </div>
+        <div class="images">
+            <img src="{% static 'main/korona.png' %}" alt="">
+        </div>
+    </div>
+</content>
+{% endblock %}
