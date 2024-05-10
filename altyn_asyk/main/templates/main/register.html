@@ -1,0 +1,35 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'main/about.css' %}">
+<link rel="stylesheet" href="{% static 'main/documents.css' %}">
+<link rel="stylesheet" href="{% static 'main/register.css' %}">
+{% endblock %}
+
+{% block title %} Алтын Асық {% endblock %}
+{% block body %}
+<content>
+    <div class="container">
+        <div class="title">
+            <span>БАЛАБАҚШАҒА ТІРКЕЛУ</span>
+        </div>
+        <div class="disclaimer">
+            <div class="first">Құрметті ата-ана!</div>
+        </div>
+        <div class="register_text">
+            Бөбекжайға баланы алып келу үшін ата аналар алдымен  «Smartnation» порталына
+            тіркеліп кезекке тұрады және орын босағанда жолдама алады. Жолдама алған соң
+            баланың медициналық «Денсаулық паспортын» басқа негізгі  құжаттармен бөбекжайға
+            алып келеді. Құжаттары дұрыс болса бала бөбекжайға қабылданады.
+        </div>
+
+        <div class="register_text">
+            Бөбекжайға баланы алып келу үшін ата аналар алдымен  «Smartnation» порталына
+            тіркеліп кезекке тұрады және орын босағанда жолдама алады. Жолдама алған соң
+            баланың медициналық «Денсаулық паспортын» басқа негізгі  құжаттармен бөбекжайға
+            алып келеді. Құжаттары дұрыс болса бала бөбекжайға қабылданады.
+        </div>
+    </div>
+</content>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'main/about.css' %}">
+{% endblock %}
+
+{% block title %} Ертеңгіліктер {% endblock %}
+{% block body %}
+<content>
+    <div class="container">
+        <div class="title">
+            <span>«Рухани жаңғыру» бағдарламасы іс-шаралары</span>
+        </div>
+        <div class="images">
+            <img src="{% static 'main/bsn.jpg' %}" alt="">
+        </div>
+    </div>
+</content>
+{% endblock %}
