@@ -1,3 +1,4 @@
+{% load static %}
 <header>
 		<div class="container">
 			<div class="logo">
@@ -17,7 +18,6 @@
 						    <a href="{% url 'main:bsn' %}">БСН және мекеме жарғысы</a>
 						    <a href="{% url 'main:community' %}">Балабақша ұжымы</a>
 						    <a href="{% url 'main:awards' %}" class="dropa">Жетістіктері</a>
-						    <a href="{% url 'main:documents' %}">Балабақша құжаттары (Аттестациялауға)</a>
 						</div>
 				</div>
 
@@ -43,17 +43,18 @@
 				</div>
 
 				<div class="dropdown">
-				  		<button class="dropbtn">Балаларға</button>
+				  		<button class="dropbtn">Әдістемелік жұмыс</button>
 						<div class="dropdown-content">
 							<a href="{% url 'main:schedule' %}">Күн тәртібі</a>
 						    <a href="{% url 'main:food_menu' %}">Ас мәзірі</a>
 						    <a href="{% url 'main:mornings' %}">Ертеңгіліктер</a>
-						    <a href="{% url 'main:open_study' %}">Ашық оқу қызметі</a>
+<!--						    <a href="{% url 'main:open_study' %}">Ашық оқу қызметі</a>-->
+							<a href="{% static 'main/Open.pdf' %}" target="_blank">Ашық оқу қызметі</a>
 						</div>
 				</div>
 
 				<div class="dropdown">
-				  		<button class="dropbtn">Балабақшамен танысу</button>
+				  		<button class="dropbtn">Балабақшамен <br>танысу</button>
 						<div class="dropdown-content">
 							<a href="{% url 'main:aula' %}">Балабақша ауласы</a>
 						    <a href="{% url 'main:ish' %}">Балабақшаның ішкі суреттері</a>
@@ -64,6 +65,10 @@
 
 				<div class="dropdown">
 				  		<a href="{% url 'main:contact' %}"><button class="dropbtn">Байланыс</button></a>
+				</div>
+
+				<div class="dropdown">
+				  		<a href="{% url 'main:documents' %}"><button class="dropbtn">Өзін-өзі бағалау</button></a>
 				</div>
 			</div>
 		</div>
